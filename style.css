@@ -1,0 +1,31 @@
+/* Terapkan ke seluruh halaman web */
+body {
+  font-family: "Century Gothic", AppleGothic, sans-serif;
+  color: aliceblue;
+}
+
+/* Contoh penggunaan ketebalan (font-weight) berbeda */
+h1 {
+  font-weight: 700;
+  /* Bold (Tebal) */
+}
+
+p {
+  font-weight: 400;
+  /* Regular (Normal) */
+}
+
+/* Gradasi Utama Sesuai Gambar Latar Mixer */
+.background-mixer-utama {
+  background: linear-gradient(135deg, #2b3080, #363c93);
+}
+
+/* Gradasi Sudut Ikon Mixer (Lebih Terang ke Gelap) */
+.background-mixer-ikon {
+  background: linear-gradient(135deg, #464f9f, #23276b);
+}
+
+/* Gradasi Lembut / Soft (Untuk Blok Konten) */
+.background-mixer-soft {
+  background: linear-gradient(135deg, #3f4692, #2d3274);
+}
